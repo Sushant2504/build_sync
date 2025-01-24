@@ -18,10 +18,10 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Timer(const Duration(seconds: 4), () {
-      // Navigate to the next screen after 7 seconds
+      // Navigate to the next screen after 4 seconds
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => OnboardingScreen()),
+        MaterialPageRoute(builder: (context) => OnboardingScreen()), // goes to the onboarding screen
       );
     });
   }
