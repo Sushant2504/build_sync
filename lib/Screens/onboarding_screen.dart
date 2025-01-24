@@ -16,7 +16,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         
         children: [
              
-             PageView(),
+             PageView(
+                Onboarding
+             ),
              PageView(),
              PageView(),
         ]
