@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class TextstyleConstants {
    
-   static final TextStyle _onboarding_title = TextStyle(
+   static TextStyle _onboarding_title = TextStyle(
        fontFamily: "Poppins",
        fontSize: 24.0,
        fontWeight: FontWeight.bold,

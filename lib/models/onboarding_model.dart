@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:build_sync/constants/appimages_constants.dart';
-import 'package:build_sync/constants/textstyle_constants.dart';
+
 
 List<String> _onboarding_title_english = [
   "The Freelancer's Hub for Developers",
